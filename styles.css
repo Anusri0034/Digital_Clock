@@ -1,0 +1,51 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+     min-height:100vh;
+    background-color: rgb(5, 165, 194);
+
+.container{
+    width:100%;
+    display:flex;
+    justify-content:center;
+}
+
+.clock-box{
+    width:350px;
+    background:linear-gradient(rgb(237, 18, 153),rgb(218, 239, 59));
+    padding:30px;
+    border-radius:15px;
+    text-align:center;
+    box-shadow:0 10px 20px rgba(0,0,0,0.3);
+}
+
+.clock-box h2{
+    color:black;
+    margin-bottom:20px;
+}
+
+.time{
+    font-size:50px;
+    font-weight:bold;
+    color:#0800ff;
+    margin-bottom:20px;
+}
+
+.date{
+    font-size:18px;
+    color:black;
+    font-weight:bold;
+
+}
+
+.date p{
+    margin:5px 0;
+}
